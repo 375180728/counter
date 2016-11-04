@@ -1,0 +1,94 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.main{
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	margin-left: 810px;
+	background-color: #6f6e53;
+	top: 50px;
+}
+
+.screen {
+	width: 270px;
+	height: 80px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 20px;
+	opacity: 0.5
+}
+
+
+.screen input{
+	width: 270px;
+	height: 35px;
+	opacity: 0.5px;
+	font-size: 20px;
+	margin: 10px 0px;
+}
+
+.num{
+	width: 160px;
+	height: 250px;
+	position: relative;
+	top: 50px;
+	float: left;
+	margin-left: 15px;
+}
+
+.char{
+	width: 100px;
+	height: 250px;
+	float: left;
+	position: relative;
+	top: 50px;
+	margin-left: 18px;
+}
+
+.buttons1,.buttons2,.buttons3{
+	width: 45px;
+	height: 45px;
+	margin: 0 0 10px 0;
+	font-size: 24px;
+	color: white;
+	font-family: "Microsoft Yahei"; 
+	border: 0;
+	cursor: pointer;
+}
+
+
+.buttons3{
+	background-color: #fe8100;
+}
+
+.buttons2{
+	background-color: #008100;
+}
+
+.buttons1{
+	background-color: #000000;
+}
+ 
+
+.button #l{
+	width: 98px;
+	height: 45px;
+
+}
+
+.res{
+	width: 274px;
+	height: 40px;
+	position: relative;
+	top: 60px;
+	left: 15px;
+	font-family: "Microsoft Yahei";
+	background-color: #fe8100;
+	border: 0;
+	font-size: 28px;
+	color: white;s
+	cursor: pointer;
+}
